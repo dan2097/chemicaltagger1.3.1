@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>uk.ac.cam.ch.wwmm</groupId>
 		<artifactId>wwmm-parent</artifactId>
-		<version>3</version>
+		<version>4</version>
 	</parent>
 
 	<groupId>uk.ac.cam.ch</groupId>
@@ -65,20 +65,6 @@
 			<name>Peter Murray-Rust</name>
 		</contributor>
 	</contributors>
-	<repositories>
-		<repository>
-			<id>ucc-repo</id>
-			<name>UCC Repository</name>
-			<url>https://maven.ch.cam.ac.uk/m2repo</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>ucc-repo</id>
-			<name>UCC Repository</name>
-			<url>https://maven.ch.cam.ac.uk/m2repo</url>
-		</pluginRepository>
-	</pluginRepositories>
 	<build>
 		<plugins>
 			<plugin>
@@ -149,12 +135,12 @@
 		<dependency>
 			<groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
 			<artifactId>oscar4-api</artifactId>
-			<version>4.1</version>
+			<version>4.2.2</version>
 		</dependency>
 		<dependency>
 			<groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
 			<artifactId>oscar4-data</artifactId>
-			<version>4.1</version>
+			<version>4.2.2</version>
 		</dependency>
 		<dependency>
   			<groupId>org.xml-cml</groupId>
